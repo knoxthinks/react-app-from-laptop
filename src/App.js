@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import PaginationControlled from './Components/Pagination';
+import ButtonBases from './Components/ComplexButton';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Creativity goes here.
         </p>
         <a
           className="App-link"
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonBases />
+        <PaginationControlled />
       </header>
     </div>
   );
