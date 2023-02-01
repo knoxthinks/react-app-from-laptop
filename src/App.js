@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PaginationControlled from './Components/Pagination';
-import ButtonBases from './Components/ComplexButton';
+// import ButtonBases from './Components/ComplexButton';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <ButtonBases />
+        {/* <ButtonBases /> */}
         <PaginationControlled />
       </header>
     </div>
