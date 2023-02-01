@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PaginationControlled from './Components/Pagination';
 // import ButtonBases from './Components/ComplexButton';
+import SpeedDialTooltipOpen from './Components/SpeedDial';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
         {/* <ButtonBases /> */}
+        <SpeedDialTooltipOpen />
         <PaginationControlled />
       </header>
     </div>
