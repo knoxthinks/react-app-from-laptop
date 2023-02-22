@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          WAN Group
         </a>
         {/* <ButtonBases /> */}
         <SpeedDialTooltipOpen />
